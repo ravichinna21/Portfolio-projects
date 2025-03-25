@@ -1,0 +1,20 @@
+# Internal IT Audit for Botium Toys
+- **Date:** March 2025
+- **Overview:** Botium Toys is a small U.S. business with a growing online presence. I performed an internal IT audit to help them secure their infrastructure and comply with regulations.
+- **What I Did:**
+  - Reviewed the IT manager’s scope, goals, and risk assessment.
+  - Created a controls and compliance checklist using the NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover).
+  - Checked compliance with PCI DSS (for online payments) and GDPR (for E.U. business).
+- **Skills Used:**
+  - Risk assessment and mitigation (learned in Google Cybersecurity Professional Certificate).
+  - Knowledge of NIST CSF, PCI DSS, and GDPR regulations.
+  - Analytical thinking to identify risks and recommend solutions.
+- **Findings:**
+  - Identified risks like data breaches, phishing attacks, and non-compliance with GDPR and PCI DSS.
+  - Highlighted potential fines: GDPR fines up to €20 million or 4% of annual turnover, PCI DSS fines of $5,000 to $100,000 per month.
+- **Recommendations:**
+  - Set up strong passwords, firewalls, and employee training to protect assets.
+  - Use monitoring tools like Splunk to detect attacks.
+  - Create an incident response plan and backups to respond and recover from incidents.
+  - Ensure GDPR compliance by mapping E.U. customer data and creating a privacy policy.
+- **Result:** Provided Botium Toys with a clear overview of their security posture, helping them avoid fines and improve cybersecurity.
