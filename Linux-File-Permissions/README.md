@@ -1,10 +1,20 @@
-# Using Linux Commands to Manage File Permissions
-- **Date:** January 2025
-- **Overview:** Practiced Linux commands to secure files by managing permissions.
+# Managing File Permissions for Research Team
+- **Date:** March 2025
+- **Overview:** As a security professional, I ensured the research team’s file permissions matched the organization’s authorization rules to keep the system secure.
 - **What I Did:**
-  - Used commands like chmod, chown, and ls -l to manage file permissions.
-  - Secured 5 sample files on a virtual machine.
+  - Used `ls -la` to check permissions in the projects directory, including files (project_k.txt, .project_x.txt) and directories (drafts).
+  - Analyzed permissions strings (ex: -rw-rw-r--) to understand user, group, and other access.
+  - Updated permissions using `chmod` to match authorization:
+    - Removed write access for "other" on project_k.txt (`chmod o-w project_k.txt`).
+    - Removed write access for user and group on .project_x.txt, added read access for group (`chmod u-w,g-w,g+r .project_x.txt`).
+    - Removed execute access for group on drafts directory (`chmod g-x drafts`) to restrict access to researcher2 user only.
 - **Skills Used:**
-  - Linux command-line skills.
-  - Understanding of file permissions (read, write, execute).
-- **Result:** Ensured only authorized users could access sensitive files.
+  - Linux commands (ls, chmod) for file permission management.
+  - Authorization analysis to ensure secure access.
+  - Attention to detail in analyzing permissions strings.
+- **Findings:**
+  - Identified unauthorized access: "other" had write access to project_k.txt, group had execute access to drafts directory.
+  - Hidden file .project_x.txt had incorrect permissions for an archived file.
+- **Results:**
+  - Updated permissions to match organization rules, ensuring only authorized users (ex: researcher2) have access.
+  - Improved system security by removing unauthorized access.
