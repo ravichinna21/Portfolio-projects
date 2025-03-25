@@ -28,4 +28,4 @@ This portfolio contains 13 projects completed as part of the Google Cybersecurit
 
 ## Contact Me
 - Email: ravichinna2104@gmail.com
-- LinkedIn: [linkedin.com/in/ravichinna21/]
+- LinkedIn: [My LinkedIn](https://linkedin.com/in/ravichinna21)
