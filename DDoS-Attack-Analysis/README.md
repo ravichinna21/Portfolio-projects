@@ -1,0 +1,20 @@
+# DDoS Attack Analysis and Security Improvement Plan
+- **Date:** March 2025
+- **Overview:** My multimedia company experienced a DDoS attack that compromised the network for 2 hours. I analyzed the event and created a plan to improve network security.
+- **What I Did:**
+  - Analyzed the DDoS attack caused by a flood of ICMP packets through an unconfigured firewall.
+  - Used NIST CSF (Identify, Protect, Detect, Respond, Recover) to create a security improvement plan.
+- **Skills Used:**
+  - Risk assessment and mitigation.
+  - Knowledge of NIST CSF and DDoS attack prevention.
+  - Analytical thinking to recommend solutions.
+- **Findings:**
+  - Identified risks: unconfigured firewall, lack of monitoring, no incident response plan.
+  - Attack impact: Network down for 2 hours, affecting business operations.
+- **Recommendations:**
+  - Identify: Conduct monthly audits to find risks.
+  - Protect: Implement strong password policies, employee training, and antivirus.
+  - Detect: Use Splunk for 24/7 monitoring and set alerts for high ICMP traffic.
+  - Respond: Create an incident response plan and train the team.
+  - Recover: Set up weekly backups and test them for quick recovery.
+- **Result:** Provided a plan to prevent future DDoS attacks and improve overall network security.
