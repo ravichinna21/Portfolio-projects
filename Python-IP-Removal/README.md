@@ -19,3 +19,26 @@
 - **Results:**
   - Automated the process of updating the allow list, ensuring only authorized IP addresses have access to restricted content.
   - Improved security by removing unauthorized IP addresses efficiently.
+    ### Code Snippet
+```python
+import_file = "allow_list.txt"
+remove_list = ["192.168.1.2", "10.0.0.5"]  # Example IPs
+
+# Open and read the file
+with open(import_file, "r") as file:
+    ip_addresses = file.read()
+
+# Convert string to list
+ip_addresses = ip_addresses.split()
+
+# Remove IPs from remove_list
+for element in remove_list:
+    if element in ip_addresses:
+        ip_addresses.remove(element)
+
+# Convert list back to string
+ip_addresses = "\n".join(ip_addresses)
+
+# Write updated list back to file
+with open(import_file, "w") as file:
+    file.write(ip_addresses)
