@@ -10,3 +10,7 @@
   - Incident response and documentation.
   - Network traffic analysis with Wireshark and tcpdump.
   - Investigative analysis with VirusTotal.
+## Reflections
+- Found tcpdump challenging due to unfamiliarity with command-line syntax, but improved with practice.
+- Gained a deeper understanding of incident detection and response, including the lifecycle of an incident.
+- Enjoyed learning network traffic analysis with Wireshark and tcpdump, and want to explore this topic further.
