@@ -1,0 +1,22 @@
+# Investigating Security Issues Using SQL Filters
+- **Date:** March 2025
+- **Overview:** As a security professional, I investigated potential security issues in my organization by analyzing login attempts and employee machines using SQL filters.
+- **What I Did:**
+  - Queried the log_in_attempts table to investigate login attempts:
+    - Filtered failed login attempts after 18:00 (`WHERE login_time > '18:00' AND success = FALSE`).
+    - Filtered login attempts on 2022-05-09 and 2022-05-08 (`WHERE login_date = '2022-05-09' OR login_date = '2022-05-08'`).
+    - Filtered login attempts outside Mexico (`WHERE country NOT LIKE 'MEX%'`).
+  - Queried the employees table to collect data for machine updates:
+    - Filtered Marketing department employees in the East building (`WHERE department = 'Marketing' AND office LIKE 'East%'`).
+    - Filtered Finance and Sales department employees (`WHERE department = 'Finance' OR department = 'Sales'`).
+    - Filtered employees not in the Information Technology department (`WHERE department NOT LIKE 'Information Technology'`).
+- **Skills Used:**
+  - SQL query writing (SELECT, WHERE, AND, OR, NOT, LIKE, % wildcard).
+  - Data analysis for security investigation.
+  - Attention to detail in filtering specific datasets.
+- **Findings:**
+  - Identified potential security issues: Failed login attempts after hours, suspicious logins on specific dates, and logins from outside Mexico.
+  - Collected data for employee machine updates in Marketing, Finance, Sales, and non-IT departments.
+- **Results:**
+  - Provided insights into potential security risks for further investigation.
+  - Enabled targeted machine updates for employees in specific departments, improving system security.
